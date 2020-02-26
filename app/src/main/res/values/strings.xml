@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ESP32</string>
+    <string name="monitoreo">Monitoreo</string>
+    <string name="cambio">ON/OFF</string>
+    <string name="tiemporeal">Tiempo Real</string>
+    <string name="Dato1">Dato1</string>
+    <string name="Dato2">Dato2</string>
+    <string name="Dato3">Dato3</string>
+    <string name="Dato4">Dato4</string>
+    <string name="estado">Estado</string>
+    <string name="copy">© Copyright 2019-2020 SEINERE</string>
+
+
+</resources>
