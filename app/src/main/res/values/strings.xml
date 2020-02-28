@@ -9,6 +9,8 @@
     <string name="Dato4">Dato4</string>
     <string name="estado">Estado</string>
     <string name="copy">© Copyright 2019-2020 SEINERE</string>
+    <string name="fecha_datos_tomados">Fecha de datos tomados</string>
+    <string name="dato">Dato</string>
 
 
 </resources>

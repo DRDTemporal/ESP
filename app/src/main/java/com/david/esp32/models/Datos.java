@@ -1,12 +1,12 @@
 package com.david.esp32.models;
 
 public class Datos {
-    String ac, dc, va, vd, humedad, temperatura, fecha;
+    String ac, dc, va, vd, humedad, temperatura, fecha, hora;
 
     public Datos() {
     }
 
-    public Datos(String ac, String dc, String va, String vd, String humedad, String temperatura, String fecha) {
+    public Datos(String ac, String dc, String va, String vd, String humedad, String temperatura, String fecha, String hora) {
         this.ac = ac;
         this.dc = dc;
         this.va = va;
@@ -14,6 +14,7 @@ public class Datos {
         this.humedad = humedad;
         this.temperatura = temperatura;
         this.fecha = fecha;
+        this.hora = hora;
     }
 
     public String getAc() {
@@ -70,5 +71,13 @@ public class Datos {
 
     public void setFecha(String fecha) {
         this.fecha = fecha;
+    }
+
+    public String getHora() {
+        return hora;
+    }
+
+    public void setHora(String hora) {
+        this.hora = hora;
     }
 }
